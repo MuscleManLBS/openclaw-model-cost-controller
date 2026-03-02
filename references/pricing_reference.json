@@ -1,0 +1,188 @@
+{
+  "models": {
+    "openai": {
+      "gpt-5.2-pro": {
+        "input": 21.00,
+        "output": 168.00,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "gpt-5.2": {
+        "input": 1.75,
+        "output": 14.00,
+        "cached_input": 0.175,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "gpt-5-mini": {
+        "input": 0.25,
+        "output": 2.00,
+        "cached_input": 0.025,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "gpt-4.1": {
+        "input": 3.00,
+        "output": 12.00,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "gpt-4o": {
+        "input": 2.50,
+        "output": 10.00,
+        "cached_input": 1.25,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "gpt-4o-mini": {
+        "input": 0.15,
+        "output": 0.60,
+        "cached_input": 0.075,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "gpt-3.5-turbo": {
+        "input": 0.50,
+        "output": 1.50,
+        "cached_input": 0.25,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "anthropic": {
+      "claude-opus-4-6": {
+        "input": 15.00,
+        "output": 75.00,
+        "cached_input": 1.50,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "claude-sonnet-4-6": {
+        "input": 3.00,
+        "output": 15.00,
+        "cached_input": 0.30,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "claude-haiku-4-5": {
+        "input": 0.25,
+        "output": 1.25,
+        "cached_input": 0.025,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "google": {
+      "gemini-3-1-pro": {
+        "input": 3.50,
+        "output": 10.50,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "gemini-2-5-flash": {
+        "input": 0.15,
+        "output": 0.60,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "deepseek": {
+      "deepseek-v3": {
+        "input": 0.14,
+        "output": 0.28,
+        "cached_input": 0.07,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "deepseek-r1": {
+        "input": 0.55,
+        "output": 2.19,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "alibaba": {
+      "qwen-2-5-max": {
+        "input": 0.80,
+        "output": 2.40,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "qwen-2-5-turbo": {
+        "input": 0.20,
+        "output": 0.60,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      },
+      "qwen-2-5-72b": {
+        "input": 0.15,
+        "output": 0.45,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "minimax": {
+      "minimax-m2-5": {
+        "input": 0.30,
+        "output": 1.20,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "moonshot": {
+      "kimi-k2-5": {
+        "input": 0.50,
+        "output": 2.00,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "zhipu": {
+      "glm-5": {
+        "input": 0.40,
+        "output": 1.30,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "xai": {
+      "grok-2": {
+        "input": 5.00,
+        "output": 15.00,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens"
+      }
+    },
+    "meta": {
+      "llama-3-70b": {
+        "input": 0.00,
+        "output": 0.00,
+        "cached_input": null,
+        "currency": "USD",
+        "unit": "per_1m_tokens",
+        "note": "Open source - self-hosted cost varies"
+      }
+    }
+  },
+  "alternatives": {
+    "expensive": {
+      "gpt-5.2-pro": ["gpt-5.2", "deepseek-v3", "qwen-2-5-turbo"],
+      "claude-opus-4-6": ["claude-sonnet-4-6", "deepseek-v3", "qwen-2-5-turbo"],
+      "gpt-5.2": ["gpt-5-mini", "deepseek-v3", "gemini-2-5-flash"],
+      "gpt-4o": ["gpt-4o-mini", "deepseek-v3", "qwen-2-5-turbo"]
+    }
+  },
+  "last_updated": "2026-03-02"
+}
